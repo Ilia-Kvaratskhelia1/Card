@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+
+}
+.main-coctaile{
+    width: 20rem;
+    height: 10rem;
+    background: linear-gradient(240deg,#c4a809  , #a0522d );
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    overflow: hidden;
+
+
+}
+#svg4268{
+    width: 5rem;
+    height: 8rem;
+}
+.main-text{
+    width: 15rem;
+    height: 8rem;
+    padding-left: 4px;
+    padding-top: 10px;
+}
+h1 , p{
+    color: white;
+    font-size: 1.2rem;
+}
+h1{
+    text-align: center;
+}
+button{
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: .7rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: antiquewhite;
+}
+.main{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: none;
+}
